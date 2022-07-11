@@ -47,6 +47,7 @@
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#download-app">Download</a></li>
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#pricing-table">Pricing</a></li>
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#contact">contact </a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -529,7 +530,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-lg-8 col-xl-6 mx-auto wow fadeInUp">
-                            <form id="contact-form" action="https://formsubmit.co/295e018f87d34bb89c6fdb039f8bad10" method="post">
+                            <form id="contact-form" action="https://formsubmit.co/295e018f87d34bb89c6fdb039f8bad10" method="POST">
                                 <div class="form-group">
                                     <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Full Name">
                                 </div>
@@ -540,6 +541,7 @@
                                     <textarea class="form-control" name="contact_message" id="contact_message" placeholder="Your Message" rows="7" cols="4"></textarea>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4"><input type="submit" name="contact_submit" class="btn btn-primary text-uppercase" value="Send Message"></div>
+                                <input type="hidden" name="_captcha" value="false">
                                 <div id="contact-result"></div>
                             </form>
                         </div>
