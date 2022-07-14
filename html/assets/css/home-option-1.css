@@ -92,12 +92,16 @@ section {
   background-color: #fc1e4f !important;
 }
 
+
 .green {
   color: #04b667;
 }
 
 .bg-light {
-  background: #fafcff !important;
+  background: #ffffff !important;
+}
+.bg-grey {
+  background: #f4f4f4;
 }
 
 .bg-dark {
@@ -903,7 +907,7 @@ Banners styles
 }
 
 .main-banner-1 {
-  background: url("../images/slide-1.jpg") no-repeat;
+  background-color:#0e333d;
   background-size: cover;
   position: relative;
   z-index: 9;
