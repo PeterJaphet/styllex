@@ -949,6 +949,17 @@ Banners styles
   z-index: 1;
   opacity: 0.85;
 }
+.b-3 {
+  padding-bottom: 70px;
+}
+.b-4 {
+  padding-bottom: 50px;
+}
+
+.img-1{
+  border-radius:10px;
+  box-shadow: 10px 10px 5px #ccc;
+}
 
 .video-placeholder {
   background: url("../images/video-placeholder.jpg") no-repeat;
