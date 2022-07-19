@@ -306,6 +306,9 @@ ul {
   .btn.btn-light.btn-xl.btn-rounded.mr-md-4.mb-4.mb-md-0.align-top {
     margin-right: 1.5em;
   }
+  .content-table{ 
+    margin-top: 8em;
+  }
 }
 
 @media (min-width: 768px) {
