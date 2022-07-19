@@ -309,13 +309,22 @@ ul {
   .content-table{ 
     margin-top: 8em;
   }
+.img-fluid1 {
+    height: 500px;
+    width: 300px;
+    margin-top: 4em;
+  }
 }
 
 @media (min-width: 768px) {
   section {
     padding: 60px 0;
   }
-
+  .content-middle img {
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
+}
   .main-banner {
     padding: 5rem 0;
   }
@@ -365,6 +374,13 @@ ul {
   ul {
     margin-bottom: 1.5rem;
   }
+  .content-middle img {
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
+    margin-top: 4em;
+
+}
 }
 
 @media (min-width: 1280px) {
@@ -383,18 +399,32 @@ ul {
   .counter-title {
     font-size: 1.2rem;
   }
+
 }
 
 @media (min-width: 1400px) {
   .main-banner {
     padding: 10rem 0;
   }
+  /* .img-fluid1 {
+    height: 500px;
+    width: 300px;
+} */
 }
 
 @media (min-width: 992px) {
   .parallax-fixed {
     background-attachment: fixed !important;
   }
+  /* .img-fluid1 {
+    height: 500px;
+    width: 300px;
+   
+  } */
+  .content-middle img {
+    width: 500px;
+    height: 610px;
+}
 }
 
 .form-group {
@@ -1060,11 +1090,10 @@ Banners styles
 
 @media (min-width: 992px) {
   .content-middle img {
-    width: auto !important;
-    max-width: 100%;
-    height: auto;
+    width: 500px;
+    height: 610px;
   }
-}
+
 
 /* icons block */
 .icon-block h4 {
