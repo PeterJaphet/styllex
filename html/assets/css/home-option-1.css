@@ -734,7 +734,7 @@ Buttons
   padding: 1rem 2.5rem;
   text-transform: uppercase;
   height: auto;
-  border: 2px solid #04b667;
+  border: 2px solid white;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -771,13 +771,35 @@ Buttons
 .btn.btn-xl {
   padding: 1.3rem 2.5rem;
 }
+.btn-down{
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  height: auto;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  line-height: 1.25;
+    border-radius: 0.25rem;
+}
+.btn-down:hover{
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+} 
 
 .btn:active,
 .btn:focus,
 .btn:hover {
   outline: 0 !important;
   background-color: transparent;
-  border: 2px solid #04b667;
+  border: 2px solid white;
   color: #04b667;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -827,12 +849,12 @@ Buttons
 }
 
 .btn-outline-primary {
-  color: #04b667;
+  color: black;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #04b667;
+  background-color: black;
 }
 
 .btn-outline-primary:focus {
@@ -983,12 +1005,12 @@ Banners styles
 }
 
 .main-banner-1 {
-  background-color: #0e333d;
+  background-color:  #0e333d; 
   background-size: cover;
   position: relative;
   z-index: 9;
 }
-
+/* #0e333d */
 @media (min-width: 992px) {
   .main-banner {
     height: 100vh;
